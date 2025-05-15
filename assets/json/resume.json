@@ -5,7 +5,7 @@
     "image": "",
     "email": "ajaynaidu96@outlook.com",
     "url": "https://ajay-naidu-96.github.io",
-    "summary": "Seasoned AI practioner with experience architecting enterprise computer vision solutions, now refining my research interests in causal inference and mechanistic interpretability in an acadmic setting.",
+    "summary": "Seasoned AI practitioner with experience architecting enterprise computer vision solutions, now refining my research interests in causal inference and mechanistic interpretability in an academic setting.",
     "location": {
       "city": "Rochester",
       "countryCode": "US",
@@ -16,7 +16,7 @@
         "network": "X",
         "username": "ajaygopii",
         "url": "https://x.com/ajaygopii"
-      }, 
+      },
       {
         "network": "LinkedIn",
         "username": "ajaynaidu96",
@@ -29,19 +29,38 @@
       "name": "Avathon",
       "position": "AI Architect",
       "url": "https://avathon.com/",
-      "startDate": "08-16-2019",
-      "endDate": "08-03-2024",
+      "startDate": "2019-08-16",
+      "endDate": "2024-08-03",
       "summary": "Led the design and deployment of scalable edge vision AI inference pipeline, optimizing computer vision models for real-time edge computing applications.",
-      "highlights": ["Pytorch, Jetson, Deepstream, Git, Microsoft Azure, C++, Python, Ubuntu", "OpenCV", "Object-Tracking", "Object-Localization", "TensorRT", "Onnx", "Quantization"]
+      "highlights": [
+        "Pytorch, Jetson, Deepstream, Git, Microsoft Azure, C++, Python, Ubuntu",
+        "OpenCV",
+        "Object-Tracking",
+        "Object-Localization",
+        "TensorRT",
+        "Onnx",
+        "Quantization"
+      ]
     },
     {
       "name": "Entropik",
       "position": "Computer Vision Intern",
       "url": "https://www.entropik.io/",
-      "startDate": "07-16-2018",
-      "endDate": "01-03-2019",
-      "summary": " Developed facial coding and eye-tracking algorithms, enhancing emotion recognition pipeline through optimized landmark-based feature extraction and tracking.",
-      "highlights": ["Scikit-Learn", "Python", "OpenCV", "Pytorch", "AWS", "ArchLinux", "Feature-Engineering", "SVM", "PCA", "Pandas"]
+      "startDate": "2018-07-16",
+      "endDate": "2019-01-03",
+      "summary": "Developed facial coding and eye-tracking algorithms, enhancing emotion recognition pipeline through optimized landmark-based feature extraction and tracking.",
+      "highlights": [
+        "Scikit-Learn",
+        "Python",
+        "OpenCV",
+        "Pytorch",
+        "AWS",
+        "ArchLinux",
+        "Feature-Engineering",
+        "SVM",
+        "PCA",
+        "Pandas"
+      ]
     }
   ],
   "education": [
@@ -51,45 +70,49 @@
       "url": "https://www.rit.edu/",
       "area": "Artificial Intelligence",
       "studyType": "Masters",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2023-01-01",
+      "endDate": "2025-01-01",
       "score": "4.0",
-      "courses": ["Independent Study in Deep Causal Generative Models, Fundamentals In ML"]
+      "courses": [
+        "Independent Study in Deep Causal Generative Models",
+        "Fundamentals in ML"
+      ]
     }
   ],
   "certificates": [
     {
-      "name": "Jetson AI Specializationa",
-      "date": "08-01-2021",
+      "name": "Jetson AI Specialization",
+      "date": "2021-08-01",
       "issuer": "Nvidia",
       "url": "https://drive.google.com/file/d/1iQwUSa1NR7_oOrlDZVmlUepvR5W3Kf5g/view?usp=sharing",
       "icon": "fa-solid fa-location-dot"
     }
   ],
-  "publications": [
-  
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Arificial Intelligence",
+      "name": "Artificial Intelligence",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Causal Inference",
         "Mechanistic Interpretability",
-        "Interpretability"
+        "Interpretability",
         "Computer Vision",
         "Object Tracking & Localization",
-        "Qantization"
+        "Quantization"
       ]
-    }
+    },
     {
       "name": "Linux",
       "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
       "url": "https://youtu.be/Dw-2IHEjylk?feature=shared",
       "keywords": [
-        "Arch Linux", "tmux", "i3", "ranger"
+        "Arch Linux",
+        "tmux",
+        "i3",
+        "ranger"
       ]
     }
   ],
@@ -101,12 +124,12 @@
     },
     {
       "language": "Kannada",
-      "fluency": "Native Speaker",
+      "fluency": "Native speaker",
       "icon": ""
-    }, 
+    },
     {
       "language": "English",
-      "fluency": "Native Speaker",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
@@ -118,11 +141,10 @@
         "Causal Inference",
         "Interpretability",
         "Disentanglement",
-        "Sparsity", 
+        "Sparsity",
         "Anything other than LLMs"
       ]
     }
   ],
-  "references": [
-  ]
+  "references": []
 }
