@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Should I tell the world about myself? Or do I keep myself private?
+Ajay is a Visual AI researcher specializing in interpretability and performance, with over 5 years of engineering experience building AI products at B2B startups. He is currently pursuing graduate research in Artificial Intelligence at Rochester Institute of Technology (RIT), focusing on advancing practical deployment of trustworthy AI systems. 
