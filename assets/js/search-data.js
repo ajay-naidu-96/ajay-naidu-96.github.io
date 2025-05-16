@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-reflecting-a-year-into-grad-school",
+      
+        title: "Reflecting a year into grad school",
+      
+      description: "april &amp; may, looking forward to summer",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/graduate-school-journal-1/";
+        
+      },
+    },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
