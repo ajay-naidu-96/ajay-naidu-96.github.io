@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Portfolio's a work in progress just like everything in life, one commit at a time! 
 
 profile:
   align: right
