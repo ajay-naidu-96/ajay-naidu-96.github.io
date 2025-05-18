@@ -30,6 +30,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-research-readings",
+          title: "research readings",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/_pages/research%20readings/";
+          },
+        },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
         },{id: "post-reflecting-a-year-into-grad-school",
       
         title: "Reflecting a year into grad school",
