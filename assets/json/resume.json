@@ -5,7 +5,7 @@
     "image": "",
     "email": "ajaynaidu96@outlook.com",
     "url": "https://ajay-naidu-96.github.io",
-    "summary": "Seasoned AI practitioner with experience architecting enterprise computer vision solutions, now refining my research interests in causal inference and mechanistic interpretability in an academic setting.",
+    "summary": "Seasoned AI practitioner with experience architecting enterprise computer vision solutions, mostly worked in B2B early stage and midsize startups so I am used to wearing many hats. Currently pursuing research at RIT.",
     "location": {
       "city": "Rochester",
       "countryCode": "US",
@@ -26,6 +26,19 @@
   },
   "work": [
     {
+      "name": "Rochester Institute of Technology",
+      "position": "Graduate Research Assistant",
+      "url": "https://avathon.com/",
+      "startDate": "2019-08-16",
+      "endDate": "2024-08-03",
+      "summary": "Led the design and deployment of scalable edge vision AI inference pipeline, optimizing computer vision models for real-time edge computing applications.",
+      "highlights": [
+        "Languages & Tools : Python, Git, Ubuntu",
+        "Computer Vision: Causal & Conditional Generative Models (Diffusion, HVAE)", 
+        "Framewords & Libraries : PyTorch"
+      ]
+    },
+    {
       "name": "Avathon",
       "position": "AI Architect",
       "url": "https://avathon.com/",
@@ -33,13 +46,11 @@
       "endDate": "2024-08-03",
       "summary": "Led the design and deployment of scalable edge vision AI inference pipeline, optimizing computer vision models for real-time edge computing applications.",
       "highlights": [
-        "Pytorch, Jetson, Deepstream, Git, Microsoft Azure, C++, Python, Ubuntu",
-        "OpenCV",
-        "Object-Tracking",
-        "Object-Localization",
-        "TensorRT",
-        "Onnx",
-        "Quantization"
+        "Languages & Tools : C++, Python, Git, Ubuntu",
+        "Computer Vision: DeepStream, OpenCV, Object Tracking, Object Localization",
+        "Hardware & Deployment: NVIDIA Jetson, DGPU, Quantization, TensorRT, ONNX",
+        "Frameworks & Libraries: PyTorch",
+        "Cloud & DevOps: Microsoft Azure"
       ]
     },
     {
@@ -50,16 +61,10 @@
       "endDate": "2019-01-03",
       "summary": "Developed facial coding and eye-tracking algorithms, enhancing emotion recognition pipeline through optimized landmark-based feature extraction and tracking.",
       "highlights": [
-        "Scikit-Learn",
-        "Python",
-        "OpenCV",
-        "Pytorch",
-        "AWS",
-        "ArchLinux",
-        "Feature-Engineering",
-        "SVM",
-        "PCA",
-        "Pandas"
+        "Languages & Tools: Python, ArchLinux",
+        "Computer Vision: OpenCV, Object Tracking",
+        "Framewords & Libraries : PyTorch, Scikit-Learn, SVM",
+        "Cloud & DevOps: AWS"
       ]
     }
   ],
@@ -70,13 +75,23 @@
       "url": "https://www.rit.edu/",
       "area": "Artificial Intelligence",
       "studyType": "Masters",
-      "startDate": "2023-01-01",
-      "endDate": "2025-01-01",
-      "score": "4.0",
+      "startDate": "2024-08-22",
+      "endDate": "2026-08-22",
+      "score": "3.95",
       "courses": [
         "Independent Study in Deep Causal Generative Models",
         "Fundamentals in ML"
       ]
+    },
+    {
+      "institution": "Visvesvaraya Institute of Technology",
+      "location": "Bangalore, India",
+      "url": "https://vtu.ac.in",
+      "area": "Computer Science & Engineering",
+      "studyType": "Masters",
+      "startDate": "2014-06-18",
+      "endDate": "2018-06-16",
+      "score": "First Class in Distinction"
     }
   ],
   "certificates": [
@@ -142,7 +157,7 @@
         "Interpretability",
         "Disentanglement",
         "Sparsity",
-        "Anything other than LLMs"
+        "Anything other than LLMs atm"
       ]
     }
   ],
