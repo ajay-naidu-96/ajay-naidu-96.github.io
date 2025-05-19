@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/images/";
         
       },
+    },{id: "post-code-quality-a-journy-from-ai-generated-dumpster-fire",
+      
+        title: "Code Quality, A Journy from AI Generated Dumpster Fire",
+      
+      description: "just some good old venting",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/genai_code/";
+        
+      },
     },{id: "post-reflecting-a-year-into-grad-school",
       
         title: "Reflecting a year into grad school",
