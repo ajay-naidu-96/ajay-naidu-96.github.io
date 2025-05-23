@@ -74,6 +74,9 @@ ninja.data = [{
             },},{id: "news-acceptance-to-aware-ai-research-traineeship-nrt",
           title: 'Acceptance to AWARE-AI Research Traineeship (NRT)',
           description: "",
+          section: "News",},{id: "news-first-submission-to-neurips-details-will-be-posted-soon",
+          title: 'First Submission to NeurIPS, details will be posted soon!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
