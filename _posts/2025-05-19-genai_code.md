@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code Quality, A Journy from AI Generated Dumpster Fire
+title: Code Quality, A Journey from AI Generated Dumpster Fire
 date: 2025-05-19 12:21:00
 description: just some good old venting
 tags: hiring
