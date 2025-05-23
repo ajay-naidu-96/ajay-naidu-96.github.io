@@ -44,9 +44,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-code-quality-a-journy-from-ai-generated-dumpster-fire",
+        },{id: "post-code-quality-a-journey-from-ai-generated-dumpster-fire",
       
-        title: "Code Quality, A Journy from AI Generated Dumpster Fire",
+        title: "Code Quality, A Journey from AI Generated Dumpster Fire",
       
       description: "just some good old venting",
       section: "Posts",
@@ -75,7 +75,7 @@ ninja.data = [{
           title: 'Acceptance to AWARE-AI Research Traineeship (NRT)',
           description: "",
           section: "News",},{id: "news-first-submission-to-neurips-details-will-be-posted-soon",
-          title: 'First Submission to NeurIPS, details will be posted soon!',
+          title: 'First submission to NeurIPS, details will be posted soon!',
           description: "",
           section: "News",},{
         id: 'social-email',
