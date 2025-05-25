@@ -29,9 +29,9 @@
       "name": "Rochester Institute of Technology",
       "position": "Graduate Research Assistant",
       "url": "https://avathon.com/",
-      "startDate": "2019-08-16",
-      "endDate": "2024-08-03",
-      "summary": "Led the design and deployment of scalable edge vision AI inference pipeline, optimizing computer vision models for real-time edge computing applications.",
+      "startDate": "2024-08-16",
+      "endDate": "Present",
+      "summary": "Details on the NeurIPS submission will be out soon!",
       "highlights": [
         "Languages & Tools : Python, Git, Ubuntu",
         "Computer Vision: Causal & Conditional Generative Models (Diffusion, HVAE)", 
@@ -74,13 +74,14 @@
       "location": "NY, USA",
       "url": "https://www.rit.edu/",
       "area": "Artificial Intelligence",
-      "studyType": "Masters",
+      "studyType": "Master of Science",
       "startDate": "2024-08-22",
       "endDate": "2026-08-22",
       "score": "3.95",
       "courses": [
         "Independent Study in Deep Causal Generative Models",
-        "Fundamentals in ML"
+        "Fundamentals in ML", 
+        "High Performance Data Science"
       ]
     },
     {
@@ -88,7 +89,7 @@
       "location": "Bangalore, India",
       "url": "https://vtu.ac.in",
       "area": "Computer Science & Engineering",
-      "studyType": "Masters",
+      "studyType": "Bachelor of Engineering",
       "startDate": "2014-06-18",
       "endDate": "2018-06-16",
       "score": "First Class in Distinction"
