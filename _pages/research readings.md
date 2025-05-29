@@ -8,7 +8,25 @@ nav_order: 4
 
 # Research Readings
 
-A curated list of research papers I'm reading or have read, organized by topic. Each entry includes links, brief notes. And I plan to port summaries from my ipad in the near future.
+A curated list of research papers I'm reading or have read, organized by topic. Each entry includes links, brief notes. And I plan to port summaries from my ipad in the near future. 
+
+## Mechanistic Interpretability
+
+| Title | Authors | Year | Notes | 
+|-------|---------|-------|------|
+| [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) | Olah et al.| 2021 | |
+| [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html) | Elhage et al. | 2022 | |
+| [Scaling and Evaluating Sparse Autoencoders](https://arxiv.org/pdf/2406.04093) | Gao et al. | 2024 | |
+
+---
+
+## (Causal)Representation Learning
+
+| Title | Authors | Year | Notes |
+|-------|---------|-------|------|
+| [Beta-VAE: Learning Basic Visual Concepts](https://openreview.net/forum?id=Sy2fzU9gl) | Higgins et al. | 2017 | KL Divergence Penalty term to a standard VAE loss func |
+
+---
 
 ---
 
@@ -22,21 +40,5 @@ A curated list of research papers I'm reading or have read, organized by topic. 
 
 ---
 
-## Mechanistic Interpretability
-
-| Title | Authors | Year | Notes | 
-|-------|---------|-------|------|
-| [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) | Olah et al.| 2021 | |
-| [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html) | Elhage et al. | 2022 | |
-
----
-
-## (Causal)Representation Learning
-
-| Title | Authors | Year | Notes |
-|-------|---------|-------|------|
-| [Beta-VAE: Learning Basic Visual Concepts](https://openreview.net/forum?id=Sy2fzU9gl) | Higgins et al. | 2017 | KL Divergence Penalty term to a standard VAE loss func |
-
----
 
 
