@@ -57,7 +57,7 @@ _styles: >
 ### Fully Connected Layer 
 
 <p align="center">
-<img src="./LectureMedia/efficientml/fc_layer.png" alt="Fully Connected Layer" width="600"/>
+<img src="./LectureMedia/efficientml/fc_layer.jpg" alt="Fully Connected Layer" width="600" height="300"/>
 </p>
 
 Every neuron in the output layer is connected to every other neuron in the previous layer, resulting in a dense weight matrix. 
@@ -74,7 +74,7 @@ where, cᵢ = number of input channels, cₒ = number of output channels, and n 
 #### 1D Convolutions
 
 <p align="center">
-  <img src="LectureMedia/efficientml/1D_conv.png" alt="1D Convolutional Layer" width="600"/>
+  <img src="LectureMedia/efficientml/1D_conv.jpg" alt="1D Convolutional Layer" width="600" height="300"/>
 </p>
 
 #### 2D Convolutions
