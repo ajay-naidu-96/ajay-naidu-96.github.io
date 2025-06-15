@@ -56,30 +56,26 @@ _styles: >
 
 ### Fully Connected Layer 
 
-    <p align="center">
-      <img src="./LectureMedia/efficientml/fc_layer.png" alt="Fully Connected Layer" width="600"/>
-    </p>
+<p align="center">
+<img src="./LectureMedia/efficientml/fc_layer.png" alt="Fully Connected Layer" width="600"/>
+</p>
 
-    Every neuron in the output layer is connected to every other neuron in the previous layer, resulting in a dense weight matrix. 
+Every neuron in the output layer is connected to every other neuron in the previous layer, resulting in a dense weight matrix. 
 
-    Input Features, X = (n, cᵢ)
-    Weight Matrix, W = (cₒ, cᵢ)
-    Output Features, Y = (n, cₒ)
-    Bias, b = (cₒ)
+Input Features, X = (n, cᵢ)
+Weight Matrix, W = (cₒ, cᵢ)
+Output Features, Y = (n, cₒ)
+Bias, b = (cₒ)
 
-    where, cᵢ = number of input channels, cₒ = number of output channels, and n = batch_size
+where, cᵢ = number of input channels, cₒ = number of output channels, and n = batch_size
 
 ### Convolutional Layer
 
 #### 1D Convolutions
 
-    <p align="center">
-      <img src="LectureMedia/efficientml/1D_conv.png" alt="1D Convolutional Layer" width="600"/>
-    </p>
-
-     Input Features, X = (n, cᵢ, wᵢ)
-     Input Features, X = (n, cₒ, wᵢ)
-     Weight Matrix, W = (n, cᵢ, wᵢ)
+<p align="center">
+  <img src="LectureMedia/efficientml/1D_conv.png" alt="1D Convolutional Layer" width="600"/>
+</p>
 
 #### 2D Convolutions
 #### Grouped Covolution
