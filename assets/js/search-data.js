@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-code-quality-a-journey-from-ai-generated-dumpster-fire",
+        },{id: "post-efficientml-notes",
+      
+        title: "EfficientML Notes",
+      
+      description: "personal notes from the lectures by Prof. Song Han on Efficent ML",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/efficientml-distill/";
+        
+      },
+    },{id: "post-code-quality-a-journey-from-ai-generated-dumpster-fire",
       
         title: "Code Quality, A Journey from AI Generated Dumpster Fire",
       
