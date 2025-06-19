@@ -57,25 +57,36 @@ _styles: >
 ### Fully Connected Layer 
 
 <p align="center">
-<img src="./LectureMedia/efficientml/fc_layer.jpg" alt="Fully Connected Layer" width="600" height="300"/>
+<img src="assets/img/LectureMedia/efficientml/fc_layer.jpg" alt="Fully Connected Layer" width="600" height="300"/>
 </p>
 
 Every neuron in the output layer is connected to every other neuron in the previous layer, resulting in a dense weight matrix. 
 
-Input Features, X = (n, cᵢ)
-Weight Matrix, W = (cₒ, cᵢ)
-Output Features, Y = (n, cₒ)
-Bias, b = (cₒ)
+**Input Features**, $\mathbf{X} = (n, c_i)$ <br>
+**Weight Matrix**, $\mathbf{W} = (c_o, c_i)$ <br>
+**Output Features**, $\mathbf{Y} = (n, c_o)$ <br>
+**Bias**, $\mathbf{b} = (c_o)$ <br>
 
-where, cᵢ = number of input channels, cₒ = number of output channels, and n = batch_size
+where, $c_i$ = number of input channels, $c_o$ = number of output channels, and n = batch_size
 
 ### Convolutional Layer
+
+Output neuron is connected to the input receptive field. Receptive field is usually the kernel shape. Based on the shape of the kernels, we have 1D and 2D convolution operations. 
 
 #### 1D Convolutions
 
 <p align="center">
-  <img src="LectureMedia/efficientml/1D_conv.jpg" alt="1D Convolutional Layer" width="600" height="300"/>
+  <img src="assets/img/LectureMedia/efficientml/1D_conv.jpg" alt="1D Convolutional Layer" width="600" height="300"/>
 </p>
+
+Simpler to visualize from a 2D Kernel, basically you need to match the number of channels and discard either the height or width component. 
+
+**Input Features**, $\mathbf{X} = (n, c_i, w_i)$ <br>
+**Weight Matrix**, $\mathbf{W} = (c_o, c_i, k_w)$ <br>
+**Output Features**, $\mathbf{Y} = (n, c_o, w_o)$ <br>
+**Bias**, $\mathbf{b} = (c_o)$ <br>
+
+where, $c_i$ = number of input channels, $c_o$ = number of output channels, n = batch_size and $k_w$ is width of kernel.
 
 #### 2D Convolutions
 #### Grouped Covolution
