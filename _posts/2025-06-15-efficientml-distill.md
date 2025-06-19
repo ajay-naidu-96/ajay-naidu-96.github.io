@@ -56,9 +56,7 @@ _styles: >
 
 ### Fully Connected Layer 
 
-<p align="center">
-<img src="assets/img/LectureMedia/efficientml/fc_layer.jpg" alt="Fully Connected Layer" width="600" height="300"/>
-</p>
+{% include figure.liquid path="assets/img/lecture_media/efficientml/fc_layer.jpg" class="img-fluid rounded z-depth-1" %}
 
 Every neuron in the output layer is connected to every other neuron in the previous layer, resulting in a dense weight matrix. 
 
@@ -75,9 +73,7 @@ Output neuron is connected to the input receptive field. Receptive field is usua
 
 #### 1D Convolutions
 
-<p align="center">
-  <img src="assets/img/LectureMedia/efficientml/1D_conv.jpg" alt="1D Convolutional Layer" width="600" height="300"/>
-</p>
+{% include figure.liquid path="assets/img/lecture_media/efficientml/1D_conv.jpg" class="img-fluid rounded z-depth-1" %}
 
 Simpler to visualize from a 2D Kernel, basically you need to match the number of channels and discard either the height or width component. 
 
