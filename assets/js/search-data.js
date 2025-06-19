@@ -57,7 +57,7 @@ ninja.data = [{
       },
     },{id: "post-code-quality-a-journey-from-ai-generated-dumpster-fire",
       
-        title: "Code Quality, A Journey from AI Generated Dumpster Fire",
+        title: "Code quality, a journey from AI generated dumpster fire",
       
       description: "just some good old venting",
       section: "Posts",
