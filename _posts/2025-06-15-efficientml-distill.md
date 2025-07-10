@@ -60,10 +60,13 @@ _styles: >
 
 Every neuron in the output layer is connected to every other neuron in the previous layer, resulting in a dense weight matrix. 
 
-**Input Features**, $\mathbf{X} = (n, c_i)$ <br>
-**Weight Matrix**, $\mathbf{W} = (c_o, c_i)$ <br>
-**Output Features**, $\mathbf{Y} = (n, c_o)$ <br>
-**Bias**, $\mathbf{b} = (c_o)$ <br>
+**Input Features**: $\mathbf{X} = (n, c_i)$
+
+**Weight Matrix**: $\mathbf{W} = (c_o, c_i)$
+
+**Output Features**: $\mathbf{Y} = (n, c_o)$
+
+**Bias**: $\mathbf{b} = (c_o)$
 
 where, $c_i$ = number of input channels, $c_o$ = number of output channels, and n = batch_size
 
