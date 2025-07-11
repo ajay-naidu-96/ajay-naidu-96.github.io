@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-efficientml-notes",
+        },{id: "post-ml-refresher",
+      
+        title: "ML Refresher",
+      
+      description: "Just some ML algorithms to refresh my memory",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ml-interview-refresher/";
+        
+      },
+    },{id: "post-efficientml-notes",
       
         title: "EfficientML Notes",
       
