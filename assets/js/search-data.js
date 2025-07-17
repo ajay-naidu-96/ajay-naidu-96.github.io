@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "ML Refresher",
       
-      description: "Just some ML algorithms to refresh my memory",
+      description: "Just some ML algorithms to refresh my memory, without all the fluff",
       section: "Posts",
       handler: () => {
         
