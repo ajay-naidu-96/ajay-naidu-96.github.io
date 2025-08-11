@@ -24,7 +24,7 @@ latest_posts:
   limit: 3
 ---
 
-Ajay is a Visual AI researcher specializing in interpretability and performance optimization, with over five years of engineering experience building and scaling AI products at B2B startups. He is currently pursuing graduate research in Artificial Intelligence at the Rochester Institute of Technology (RIT), where his work focuses on practical strategies for deploying trustworthy and efficient AI systems in the real world—because apparently, “it works on my laptop” isn’t considered a valid deployment strategy. (Also laughs in Docker.)
+Ajay is a Visual AI researcher specializing in interpretability and performance optimization, with over five years of engineering experience building and scaling AI products at B2B startups. He is currently pursuing graduate research in Artificial Intelligence at the Rochester Institute of Technology (RIT), where his work focuses on practical strategies for deploying trustworthy and efficient AI systems in the real world.
 
 Much of Ajay's engineering journey has revolved around scaling edge-based computer vision systems under tight hardware constraints (and even tighter budgets). In one of his largest deployments, he orchestrated 3–4 GPU-optimized models per site across up to 225 locations, each handling 4 to 25 live camera feeds. At peak, this meant nearly 1,000 video streams running in parallel at 5 frames per second. That's a lot of pixels... It sounds impressive—until you realize it’s basically babysitting 1,000 digital toddlers that occasionally throw tantrums when the network hiccups. Distributed chaos, in other words. It's all about perspective.
 
