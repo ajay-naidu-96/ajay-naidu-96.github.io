@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-First submission to [NeurIPS](https://neurips.cc), details will be posted soon!
+First submission to [NeurIPS](https://neurips.cc), details will be posted soon! (Oops, rejection)
