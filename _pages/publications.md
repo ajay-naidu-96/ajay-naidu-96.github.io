@@ -19,4 +19,6 @@ nav_order: 2
 
 </div>
 
-📄 Work in Progress: This publication is currently under development. Updates will be shared soon.
+## ICLR 2026
+
+- [ProReGen: Progressive Residual Generation Under Attribute Correlations](https://openreview.net/forum?id=2LzYaW032Q)

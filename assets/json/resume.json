@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Ajay Gopi",
-    "label": "AI Researcher",
+    "label": "ML Systems Engineer",
     "image": "",
     "email": "ajaynaidu96@outlook.com",
     "url": "https://ajay-naidu-96.github.io",
-    "summary": "Seasoned AI practitioner with experience architecting enterprise computer vision solutions, mostly worked in B2B early stage and midsize startups so I am used to wearing many hats. Currently pursuing research at RIT.",
+    "summary": "Seasoned ML systems practitioner with experience architecting enterprise inference pipelines and production AI platforms across B2B startups. Currently pursuing graduate research at RIT with emphasis on efficient inference and practical model deployment.",
     "location": {
       "city": "Rochester",
       "countryCode": "US",
@@ -28,14 +28,14 @@
     {
       "name": "Rochester Institute of Technology",
       "position": "Graduate Research Assistant",
-      "url": "https://avathon.com/",
+      "url": "https://www.rit.edu/",
       "startDate": "2024-08-16",
       "endDate": "Present",
-      "summary": "Details on the NeurIPS submission will be out soon!",
+      "summary": "Graduate research focused on efficient inference, generative modeling, and practical deployment constraints in modern ML systems.",
       "highlights": [
         "Languages & Tools : Python, Git, Ubuntu",
-        "Computer Vision: Causal & Conditional Generative Models (Diffusion, HVAE)", 
-        "Framewords & Libraries : PyTorch"
+        "Inference & Modeling: Generative models, efficient serving, deployment-aware experimentation",
+        "Frameworks & Libraries : PyTorch"
       ]
     },
     {
@@ -44,11 +44,11 @@
       "url": "https://avathon.com/",
       "startDate": "2019-08-16",
       "endDate": "2024-08-03",
-      "summary": "Led the design and deployment of scalable edge vision AI inference pipeline, optimizing computer vision models for real-time edge computing applications.",
+      "summary": "Led the design and deployment of scalable inference pipelines for production computer vision systems, optimizing end-to-end serving performance for real-time edge applications.",
       "highlights": [
         "Languages & Tools : C++, Python, Git, Ubuntu",
         "Computer Vision: DeepStream, OpenCV, Object Tracking, Object Localization",
-        "Hardware & Deployment: NVIDIA Jetson, DGPU, Quantization, TensorRT, ONNX",
+        "Hardware & Deployment: NVIDIA Jetson, DGPU, Quantization, TensorRT, ONNX, inference optimization",
         "Frameworks & Libraries: PyTorch",
         "Cloud & DevOps: Microsoft Azure"
       ]
@@ -111,9 +111,9 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Causal Inference",
-        "Mechanistic Interpretability",
-        "Interpretability",
+        "LLM Inference",
+        "ML Systems",
+        "Inference Optimization",
         "Computer Vision",
         "Object Tracking & Localization",
         "Quantization"
@@ -154,11 +154,11 @@
       "name": "Computer Vision",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Causal Inference",
-        "Interpretability",
-        "Disentanglement",
-        "Sparsity",
-        "Anything other than LLMs atm"
+        "LLM Inference",
+        "Distributed Inference",
+        "Model Serving",
+        "Efficient Deployment",
+        "Production ML Systems"
       ]
     }
   ],
