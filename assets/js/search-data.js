@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -99,12 +99,15 @@ ninja.data = [{
           section: "News",},{id: "news-first-submission-to-neurips-details-will-be-posted-soon-oops-rejection",
           title: 'First submission to NeurIPS, details will be posted soon! (Oops, rejection)',
           description: "",
+          section: "News",},{id: "news-paper-accepted-to-iclr-2026-proregen-progressive-residual-generation-under-attribute-correlations",
+          title: 'Paper accepted to ICLR 2026: ProReGen: Progressive Residual Generation Under Attribute Correlations.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%6A%61%79%6E%61%69%64%75%39%36@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%6A%61%79%6E%61%69%64%75%39%36@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
