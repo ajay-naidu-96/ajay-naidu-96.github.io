@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "I use (Arch)[https://www.youtube.com/watch?v=Dw-2IHEjylk], btw!",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -44,7 +44,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-ml-refresher",
+        },{id: "nav-recruiters",
+          title: "recruiters",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/recruiters/";
+          },
+        },{id: "post-the-absolute-bare-bones-for-starting-a-company",
+      
+        title: "The Absolute Bare Bones for Starting a Company",
+      
+      description: "Documenting my resources and findings for starting your own company.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ml-startup-resources/";
+        
+      },
+    },{id: "post-ml-refresher",
       
         title: "ML Refresher",
       
