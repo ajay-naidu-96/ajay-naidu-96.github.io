@@ -3,7 +3,7 @@ layout: distill
 title: EfficientML Notes
 description: personal notes from the lectures by Prof. Song Han on Efficent ML
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-06-15
 featured: true
 mermaid:

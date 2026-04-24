@@ -1,11 +1,10 @@
 {
   "basics": {
     "name": "Ajay Gopi",
-    "label": "ML Systems Engineer",
     "image": "",
     "email": "ajaynaidu96@outlook.com",
     "url": "https://ajay-naidu-96.github.io",
-    "summary": "Seasoned ML systems practitioner with experience architecting enterprise inference pipelines and production AI platforms across B2B startups. Currently pursuing graduate research at RIT with emphasis on efficient inference and practical model deployment.",
+    "summary": "ML engineer with 5 years of production experience deploying inference pipelines at scale: 1,000+ edge deployments, real-time multi-stream CV on constrained hardware, safety-critical alerting systems. Graduate researcher at RIT focused on efficient inference and causal generative modeling. ICLR 2026. One of two merit scholarship recipients from a cohort of 25.",
     "location": {
       "city": "Rochester",
       "countryCode": "US",
@@ -26,46 +25,32 @@
   },
   "work": [
     {
-      "name": "Rochester Institute of Technology",
+      "name": "Computational Linguistics and Speech Processing Lab, RIT",
       "position": "Graduate Research Assistant",
       "url": "https://www.rit.edu/",
-      "startDate": "2024-08-16",
-      "endDate": "Present",
-      "summary": "Graduate research focused on efficient inference, generative modeling, and practical deployment constraints in modern ML systems.",
-      "highlights": [
-        "Languages & Tools : Python, Git, Ubuntu",
-        "Inference & Modeling: Generative models, efficient serving, deployment-aware experimentation",
-        "Frameworks & Libraries : PyTorch"
-      ]
+      "startDate": "2025-08-16",
+      "endDate": "Present"
     },
     {
-      "name": "Avathon",
+      "name": "Computational Biomedicine Lab, RIT",
+      "position": "Research Assistant",
+      "url": "https://www.rit.edu/",
+      "startDate": "2024-08-16",
+      "endDate": "2025-05-01"
+    },
+    {
+      "name": "Avathon (formerly Integration Wizard Solutions)",
       "position": "AI Architect",
       "url": "https://avathon.com/",
       "startDate": "2019-08-16",
-      "endDate": "2024-08-03",
-      "summary": "Led the design and deployment of scalable inference pipelines for production computer vision systems, optimizing end-to-end serving performance for real-time edge applications.",
-      "highlights": [
-        "Languages & Tools : C++, Python, Git, Ubuntu",
-        "Computer Vision: DeepStream, OpenCV, Object Tracking, Object Localization",
-        "Hardware & Deployment: NVIDIA Jetson, DGPU, Quantization, TensorRT, ONNX, inference optimization",
-        "Frameworks & Libraries: PyTorch",
-        "Cloud & DevOps: Microsoft Azure"
-      ]
+      "endDate": "2024-08-03"
     },
     {
       "name": "Entropik",
       "position": "Computer Vision Intern",
       "url": "https://www.entropik.io/",
       "startDate": "2018-07-16",
-      "endDate": "2019-01-03",
-      "summary": "Developed facial coding and eye-tracking algorithms, enhancing emotion recognition pipeline through optimized landmark-based feature extraction and tracking.",
-      "highlights": [
-        "Languages & Tools: Python, ArchLinux",
-        "Computer Vision: OpenCV, Object Tracking",
-        "Framewords & Libraries : PyTorch, Scikit-Learn, SVM",
-        "Cloud & DevOps: AWS"
-      ]
+      "endDate": "2019-01-03"
     }
   ],
   "education": [
@@ -77,88 +62,115 @@
       "studyType": "Master of Science",
       "startDate": "2024-08-22",
       "endDate": "2026-08-22",
-      "score": "3.95",
-      "courses": [
-        "Independent Study in Deep Causal Generative Models",
-        "Fundamentals in ML", 
-        "High Performance Data Science"
-      ]
+      "score": "3.95"
     },
     {
-      "institution": "Visvesvaraya Institute of Technology",
+      "institution": "Visvesvaraya Technological University",
       "location": "Bangalore, India",
       "url": "https://vtu.ac.in",
       "area": "Computer Science & Engineering",
       "studyType": "Bachelor of Engineering",
       "startDate": "2014-06-18",
       "endDate": "2018-06-16",
-      "score": "First Class in Distinction"
+      "score": "First Class with Distinction"
+    }
+  ],
+  "publications": [
+    {
+      "name": "PROREGEN: Progressive Residual Generation Under Attribute Correlations",
+      "publisher": "ICLR 2026",
+      "releaseDate": "2026",
+      "url": "https://openreview.net/pdf/6f80d542906178c2a0c2ab3a4845566279f2254e.pdf"
+    },
+    {
+      "name": "Bias Propagation and Mitigation in Deep Generative Models with Attribute Correlations.",
+      "publisher": "Under review — leading peer-reviewed journal",
+      "url": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "ApproxTrain — Posit-Based Arithmetic Emulation for Transformer Training",
+      "url": "https://github.com/ajay-naidu-96/ApproxTrain"
     }
   ],
   "certificates": [
     {
       "name": "Jetson AI Specialization",
       "date": "2021-08-01",
-      "issuer": "Nvidia",
-      "url": "https://drive.google.com/file/d/1iQwUSa1NR7_oOrlDZVmlUepvR5W3Kf5g/view?usp=sharing",
-      "icon": "fa-solid fa-location-dot"
+      "issuer": "NVIDIA",
+      "url": "https://drive.google.com/file/d/1iQwUSa1NR7_oOrlDZVmlUepvR5W3Kf5g/view?usp=sharing"
     }
   ],
-  "publications": [],
   "skills": [
     {
-      "name": "Artificial Intelligence",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "ML Systems & Inference",
       "keywords": [
-        "LLM Inference",
-        "ML Systems",
-        "Inference Optimization",
-        "Computer Vision",
-        "Object Tracking & Localization",
-        "Quantization"
+        "Production inference pipelines",
+        "LLM inference",
+        "TensorRT",
+        "INT8 / FP16 quantization",
+        "Knowledge distillation",
+        "Structured pruning",
+        "DeepStream SDK",
+        "Edge deployment at scale"
       ]
     },
     {
-      "name": "Linux",
-      "level": "Advanced",
-      "icon": "fa-solid fa-hashtag",
-      "url": "https://youtu.be/Dw-2IHEjylk?feature=shared",
+      "name": "Computer Vision",
       "keywords": [
-        "Arch Linux",
-        "tmux",
-        "i3",
-        "ranger"
+        "Object detection",
+        "Object tracking",
+        "Pose estimation",
+        "OpenCV",
+        "YOLOv5"
+      ]
+    },
+    {
+      "name": "Research & Generative Models",
+      "keywords": [
+        "Causal Inference",
+        "Generative Adversarial Networks",
+        "Diffusion",
+        "Posit arithmetic", 
+        "Transformers"
+      ]
+    },
+    {
+      "name": "Hardware & Systems",
+      "keywords": [
+        "NVIDIA Jetson",
+        "C++",
+        "Python",
+        "Linux",
+        "Docker",
+        "Microsoft Azure"
       ]
     }
   ],
   "languages": [
     {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
       "language": "Telugu",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native"
     },
     {
       "language": "Kannada",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native"
     }
   ],
   "interests": [
     {
-      "name": "Computer Vision",
-      "icon": "fa-solid fa-tag",
+      "name": "ML Systems & LLM Inference",
       "keywords": [
-        "LLM Inference",
-        "Distributed Inference",
-        "Model Serving",
-        "Efficient Deployment",
-        "Production ML Systems"
+        "LLM inference optimization",
+        "Distributed inference",
+        "Hardware-aware model design",
+        "Edge accelerator development", 
+        "ML Compilers"
       ]
     }
   ],

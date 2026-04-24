@@ -627,11 +627,13 @@ permalink: /
       <div class="container nav-inner">
         <a class="brand" href="{{ '/' | relative_url }}">Ajay Gopi</a>
         <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#writing">Writing</a>
-          <a href="#news">News</a>
-          <a href="mailto:{{ site.data.socials.email }}">Contact</a>
+          <a href="#about">about</a>
+          <a href="#work">work</a>
+          <a href="#writing">writing</a>
+          <a href="#news">news</a>
+          <a href="{{ '/books/' | relative_url }}">bookshelf</a>
+          <a href="{{ '/recruiters/' | relative_url }}">recruiters</a>
+          <a href="mailto:{{ site.data.socials.email }}">contact</a>
         </div>
       </div>
     </nav>
@@ -706,7 +708,7 @@ permalink: /
               </div>
               <div class="metric">
                 <strong>225 sites</strong>
-                <span>Largest edge deployment footprint referenced in the portfolio copy</span>
+                <span>Largest edge deployment footprint</span>
               </div>
               <div class="metric">
                 <strong>RIT M.S.</strong>
@@ -740,11 +742,11 @@ permalink: /
               <span class="card-link">Open CV</span>
             </a>
 
-            <a class="card" href="{{ '/research/' | relative_url }}">
-              <div class="card-label">Readings</div>
-              <h3 class="card-title">Research notes</h3>
-              <p class="card-copy">A curated list of papers and topics shaping the current research direction.</p>
-              <span class="card-link">Browse readings</span>
+            <a class="card" href="{{ '/resources/' | relative_url }}">
+              <div class="card-label">Links</div>
+              <h3 class="card-title">Useful Resources</h3>
+              <p class="card-copy">A curated collection of useful tools, articles, and links on the internet.</p>
+              <span class="card-link">Browse resources</span>
             </a>
 
             <a class="card" href="{{ '/books/' | relative_url }}">
@@ -762,7 +764,7 @@ permalink: /
           <div class="section-heading">
             <span class="section-kicker">News</span>
             <h2 class="section-title">Recent updates</h2>
-            <p class="section-blurb">Updates on research, publications, and production-facing ML work.</p>
+            <p class="section-blurb">Updates on life, research, production-facing ML work.</p>
           </div>
 
           <div class="timeline">
@@ -785,23 +787,27 @@ permalink: /
           <h3 class="footer-title">Ajay Gopi</h3>
           <p>Machine Learning Engineer building LLM and vision systems that can handle real production and deployment constraints.</p>
           <div class="footer-note">&copy; {{ site.time | date: '%Y' }} Ajay Gopi</div>
+          <div style="margin-top: 20px;">
+            <img src="https://komarev.com/ghpvc/?username=ajay-naidu-96.github.io&color=blue" alt="Profile visitors" />
+          </div>
         </div>
         <div>
-          <h3>Explore</h3>
+          <h3>explore</h3>
           <ul class="footer-list">
-            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-            <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-            <li><a href="{{ '/research/' | relative_url }}">Research readings</a></li>
-            <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">about</a></li>
+            <li><a href="{{ '/publications/' | relative_url }}">publications</a></li>
+            <li><a href="{{ '/blog/' | relative_url }}">blog</a></li>
+            <li><a href="{{ '/books/' | relative_url }}">bookshelf</a></li>
+            <li><a href="{{ '/recruiters/' | relative_url }}">recruiters</a></li>
           </ul>
         </div>
         <div>
-          <h3>Connect</h3>
+          <h3>connect</h3>
           <ul class="footer-list">
-            <li><a href="mailto:{{ site.data.socials.email }}">Email</a></li>
-            <li><a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noreferrer">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            <li><a href="https://x.com/{{ site.data.socials.x_username }}" target="_blank" rel="noreferrer">X</a></li>
+            <li><a href="mailto:{{ site.data.socials.email }}">email</a></li>
+            <li><a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noreferrer">github</a></li>
+            <li><a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/" target="_blank" rel="noreferrer">linkedin</a></li>
+            <li><a href="https://x.com/{{ site.data.socials.x_username }}" target="_blank" rel="noreferrer">x</a></li>
           </ul>
         </div>
       </div>

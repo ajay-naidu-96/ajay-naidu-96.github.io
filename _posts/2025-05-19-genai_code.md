@@ -6,7 +6,7 @@ description: just some good old venting
 tags: hiring
 categories: sample-posts
 thumbnail: assets/img/9.jpg
-giscus_comments: true
+giscus_comments: false
 ---
 
 AI Generated Code has been a hot topic, from companies adopting "vibe" coding to potential candidates using GPT or any of the LLMs to trick their way into clearing coding rounds. This post serves as a guided tour as to what *not* to do -- and why it matters? When using AI generated code from both sides of the lens, captured from a platform that uses AI generated code to prepare candidates for coding interviews on their platform. Surprisingly, the same is used by Pinterest, Netlix to name a few to screen candidates. I encountered CodeSignal as I was taking up a code screening test for Pinterest, the test had two types of code tests, a traditional leetcode style question and an implementation of ML Algorithm from scratch. This post will be covering the latter type of question in coding rounds. 

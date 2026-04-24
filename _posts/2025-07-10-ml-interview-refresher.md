@@ -3,7 +3,7 @@ layout: distill
 title: ML Refresher
 description: Just some ML algorithms to refresh my memory, without all the fluff
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-07-10
 featured: true
 mermaid:
@@ -31,6 +31,7 @@ toc:
   - name: 1. Linear Regression - Closed Forms vs Iterative
   - name: 2. Logistic Regresssion
   - name: 3. Classification Metrics 
+  - name: 4. K Nearest Neighbour
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -66,7 +67,7 @@ $$
 J(\boldsymbol{\theta}) = \frac{1}{2n} \left[ \mathbf{y}^\top \mathbf{y} - 2 \mathbf{y}^\top \mathbf{X} \boldsymbol{\theta} + \boldsymbol{\theta}^\top \mathbf{X}^\top \mathbf{X} \boldsymbol{\theta} \right]
 $$
 
-**Gradient,**
+**Gradient**,
 $$
 \nabla_{\boldsymbol{\theta}} J(\boldsymbol{\theta}) = \frac{1}{n} \left( \mathbf{X}^\top \mathbf{X} \boldsymbol{\theta} - \mathbf{X}^\top \mathbf{y} \right)
 $$
@@ -149,6 +150,10 @@ z = X @ theta
 y_pred = sigmoid(z)
 loss = cross_entropy_loss(y, y_pred)
 
+# gradients w.r.t weights and bias
+# dw = (1 / m) * np.dot(X.T, (y_pred - y))
+# db = (1 / m) * np.sum(y_pred - y)
+
 ```
 
 # 3. Classification Metrics
@@ -203,4 +208,130 @@ def compute_auc_roc(tprs, fprs):
 
   return acuroc
 ```
+
+# 4. K Nearest Neighbour
+
+Compute some distance metric and sort them and assign label based on most common vote among the top k closest neighbours
+
+```python
+
+def compute_distance(pt1, pt2):
+
+  return np.sqrt(sum((p-q)**2 for p, q in zip(pt1, pt2)))
+  ## return np.linalg.norm(np.array(pt1), np.array(pt2))
+
+
+data = [
+    ((1.2, 0.4), 'Apple'),
+    ((1.0, 0.5), 'Apple'),
+    ((1.6, 0.7), 'Orange'),
+    ((1.3, 0.3), 'Apple'),
+    ((1.8, 0.8), 'Orange')
+]
+
+query = (1.4, 0.6)
+distances = []
+k = 3
+
+for (x, y) in data:
+  distances.append((compute_distance(query, x), y))
+  # heappush(distances, (compute_distance(query, x), y))
+
+distances.sort()
+
+# while distances and k > 0 :
+#   dist, label = heappop(distances)
+#   labels.append(label)
+#   k -= 1
+
+labels = [label for dist, label in distances[:k]]
+Counter(labels).most_common(1)[0][0]
+
+```
+
+# 5. Naive Bayes Classifier
+
+Step 1: Calculate the prior probabilites
+
+```python
+def get_priors(y):
+  # here y is a pandas column
+  return y.value_counts(normalize=True)
+```
+
+Step 2: Calculate likelihoods
+
+```python
+# p(x/y)
+
+def get_likelihoods_with_smoothning(X, Y):
+  # nested dict y == target_class and x == some_feature
+
+  likelihoods = {}
+
+  for feature in X.columns:
+
+    likelihoods[feature] = {}
+
+    for class_ in Y.unique():
+    
+      value_counts = X[feature][Y==class_].value_counts()+1
+      value_counts /= (len(X[feature][Y==class_]) + X[feature].nunique()) 
+
+      likelihoods[feature][class_] = value_counts
+
+  return likelihoods
+
+```
+
+Step 3: Calculate posterior probabilitites
+
+```python
+
+def calculate_prob(X_test, likelihoods, priors):
+
+  res = []
+
+  for _, data_point in X_test.iterrows():
+
+    class_probs = {}
+
+    for class_, prior in priors.items():
+
+      class_probs[class_] = prior
+      
+      for col in data_point.columns:
+
+        feature = likelihoods[col][class_]
+
+        class_probs[class_] *= feature.get(data_point[col], 1/len(feature))
+
+    res.append(max(class_probs, key=class_probs.get))
+
+  return res
+```
+
+
+# 6. Decision Trees
+
+Step 1: It's a recursive func, so figure out base cases
+
+Base Case 1: Creating the terminal node 
+
+```python
+
+  def create_terminal(group):
+    return Counter([row[-1] for row in group]).most_common(1)[0][0]
+    
+```
+
+Base Case 2:
+ ```python
+
+  def recurse_split(node, min_size, max_depth, depth):
+    left, right = node['groups']
+
+    del node['groups']
+
+  ```
 
