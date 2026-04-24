@@ -120,6 +120,9 @@ ninja.data = [{
           section: "News",},{id: "news-paper-accepted-to-iclr-2026-proregen-progressive-residual-generation-under-attribute-correlations",
           title: 'Paper accepted to ICLR 2026: ProReGen: Progressive Residual Generation Under Attribute Correlations.',
           description: "",
+          section: "News",},{id: "news-i-officially-hit-225lbs-on-my-bench-one-of-my-long-term-goals",
+          title: 'I officially hit 225lbs on my bench! One of my long term goals....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
