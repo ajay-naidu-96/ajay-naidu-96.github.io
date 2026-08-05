@@ -772,7 +772,7 @@ permalink: /
               <article class="timeline-item">
                 <div class="timeline-date">{{ item.date | date: "%b %Y" }}</div>
                 <div>
-                  <p>{{ item.content | markdownify | strip_html }}</p>
+                  <p>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
                 </div>
               </article>
             {% endfor %}
