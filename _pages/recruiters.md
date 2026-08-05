@@ -8,7 +8,7 @@ nav_order: 6
 
 Hi and welcome! If you're here, you are probably looking to understand my technical background and what I can bring to your team. 
 
-Officially, I'm on the job market starting May 11 2026 post my graduation at RIT.
+Officially, I am actively looking for new opportunities starting May 11, 2026, following my graduation from RIT. Although I had signed an offer to join Sauron Systems as an Inference Engineer starting in July, unexpected organizational changes mean I am back on the market and ready to hit the ground running.
 
 As an Machine Learning Engineer, my focus over the last five years has been on **high throughput inference**, **production ML systems**, and **performance optimization**. But beyond titles, my core philosophy is bridging the gap between a model that's benchmarked in a controlled environment and one that performs reliably in production under real-world constraints.
 
@@ -44,7 +44,11 @@ While AI assistance tools are great for productivity, I strongly believe in the 
 Note: If you are like me and still don't understand how people are able to review code written by LLMs given that their throughput is usually higher than cognitive load of a human, I'm curious how your teams are managing code reviews. 
 
 #### 3. Core Values
-Will be added soon...
+- Be honest
+- Prioritize Health (Mental and Physical)
+- Be Egotistical, have the ego towards the problems you are solving not against people
+- Results over obstacles
+
 
 #### 4. Extremely Goal Oriented
 Will be added soon...
